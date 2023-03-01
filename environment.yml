@@ -1,0 +1,16 @@
+name: isi_mujoco
+channels:
+- defaults
+- conda-forge
+dependencies:
+- python=3.8
+- pip
+- pandas
+- matplotlib
+- seaborn
+- mpi4py
+- pytables
+- mediapy
+- pip:
+  - dm_control==1.0.7
+  - mujoco==2.2
