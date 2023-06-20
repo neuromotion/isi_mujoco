@@ -3,9 +3,9 @@ from mujoco import viewer
 import math
 
 
-ten_file = open("/Users/shanebarys/BortonLab/TLengthWrite.txt", "w")
+ten_file = open("output/TLengthWrite.txt", "w")
 
-model = mujoco.MjModel.from_xml_path('/Users/shanebarys/Documents/GitHub/isi_mujoco/isi_mujoco/models/gait10dof18musc_pinned.xml')
+model = mujoco.MjModel.from_xml_path('isi_mujoco/models/gait10dof18musc_pinned.xml')
 data = mujoco.MjData(model)
 
 # def control_callback(model, data):
